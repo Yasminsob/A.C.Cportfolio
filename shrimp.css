@@ -1,14 +1,17 @@
+h2{
+    color: #FF8DA1;
+}
+
 .container {
-    width: 35%;
+    width: 55%;
     margin: 0 auto;
     border: 1px solid;
     display: grid;
-    grid-template-rows: 100px 150px 100px;
+    grid-template-rows: 100px 150px;
     grid-template-columns: 1.5fr 2fr;
     grid-template-areas: 
     'first second'
     'third fourth'
-    'fifth sixth'
 }
 
 .item {
@@ -33,12 +36,4 @@ align-items: center;
 
 .item-4{
     grid-area: fourth;
-}
-
-.item-5{
-    grid-area: fifth;
-}
-
-.item-6{
-    grid-area: sixth;
 }
